@@ -1,0 +1,18 @@
+{
+  "name": "public-ngrok-server",
+  "version": "1.0.0",
+  "description": "A publicly available server which can serve as a redirect URI and returns all requests sent to it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishwarajanand/PublicNgrokServer"
+  },
+  "author": "vishwarajanand",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "ngrok": "^2.2.24"
+  }
+}
